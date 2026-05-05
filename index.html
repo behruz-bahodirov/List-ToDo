@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h2 class="title">ToDo List</h2>
+        <form class="form">
+            <input type="text" placeholder="add new todo" class="form_input" required>
+            <button class="add_btn" type="submit">Add</button>
+        </form>
+
+        <div class="todo_list">
+            <div class="list_item">
+                <div class="item_info">
+                    <input type="checkbox" class="checkbox">
+                    <p class="todo">Lorem, ipsum dolor.</p>
+                </div>
+                <button class="remove_btn">
+                    <img src="./img/bin.svg" width="50" height="50" alt="delete-button">
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
